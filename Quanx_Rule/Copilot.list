@@ -6,18 +6,18 @@
 # HOST-SUFFIX: 2
 # HOST-KEYWORD: 1
 # TOTAL: 15
-HOST,copilot.microsoft.com
-HOST,gateway.bingviz.microsoft.net
-HOST,odc.officeapps.live.com
-HOST,r.bing.com
-HOST,self.events.data.microsoft.com
-HOST-SUFFIX,api.microsoftapp.net
-HOST-SUFFIX,bing-shopping.microsoft-falcon.io
-HOST-KEYWORD,bing
-HOST,api.msn.com
-HOST,location.microsoft.com
-HOST,graph.microsoft.com
-HOST,assets.msn.com
-HOST,in.appcenter.ms
-HOST,oneocsp.microsoft.com
-HOST,xpaywalletcdn.azureedge.net
+HOST,copilot.microsoft.com,Copilot
+HOST,gateway.bingviz.microsoft.net,Copilot
+HOST,odc.officeapps.live.com,Copilot
+HOST,r.bing.com,Copilot
+HOST,self.events.data.microsoft.com,Copilot
+HOST-SUFFIX,api.microsoftapp.net,Copilot
+HOST-SUFFIX,bing-shopping.microsoft-falcon.io,Copilot
+HOST-KEYWORD,bing,Copilot
+HOST,api.msn.com,Copilot
+HOST,location.microsoft.com,Copilot
+HOST,graph.microsoft.com,Copilot
+HOST,assets.msn.com,Copilot
+HOST,in.appcenter.ms,Copilot
+HOST,oneocsp.microsoft.com,Copilot
+HOST,xpaywalletcdn.azureedge.net,Copilot
