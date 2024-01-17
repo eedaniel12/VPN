@@ -1,0 +1,15 @@
+# NAME: Notion
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-01-08 16:01:02
+# HOST: 1
+# HOST-SUFFIX: 5
+# HOST-KEYWORD: 1
+# TOTAL: 6
+HOST,http-inputs-notion.splunkcloud.com
+HOST-SUFFIX,notion-static.com
+HOST-SUFFIX,notion.com
+HOST-SUFFIX,notion.new
+HOST-SUFFIX,notion.site
+HOST-SUFFIX,notion.so
+HOST-KEYWORD,notion
