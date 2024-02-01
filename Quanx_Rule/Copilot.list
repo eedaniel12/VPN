@@ -1,19 +1,15 @@
 # NAME: Copilot
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-01-08 16:03:00
-# HOST: 12
-# HOST-SUFFIX: 2
-# HOST-KEYWORD: 1
-# TOTAL: 15
+# UPDATED: 2024-02-01 16:03:00
 HOST,copilot.microsoft.com,Copilot
 HOST,gateway.bingviz.microsoft.net,Copilot
+HOST,gateway.bingviz.microsoftapp.net,Copilot
 HOST,odc.officeapps.live.com,Copilot
 HOST,r.bing.com,Copilot
 HOST,self.events.data.microsoft.com,Copilot
 HOST-SUFFIX,api.microsoftapp.net,Copilot
 HOST-SUFFIX,bing-shopping.microsoft-falcon.io,Copilot
-HOST-KEYWORD,bing,Copilot
+HOST,services.bingapis.com,Copilot
+HOST,www.bing.com,Copilot
 HOST,api.msn.com,Copilot
 HOST,location.microsoft.com,Copilot
 HOST,graph.microsoft.com,Copilot
@@ -21,3 +17,16 @@ HOST,assets.msn.com,Copilot
 HOST,in.appcenter.ms,Copilot
 HOST,oneocsp.microsoft.com,Copilot
 HOST,xpaywalletcdn.azureedge.net,Copilot
+HOST,www.bingapis.com,Copilot
+HOST,c.bing.com,Copilot
+HOST,th.bing.com,Copilot
+HOST-SUFFIX,clarity.ms,Copilot
+HOST,sydney.bing.com,Copilot
+HOST,prod.rewardsplatform.microsoft.com,Copilot
+HOST-SUFFIX,bing-shopping.microsoft-falcon.io,Copilot
+HOST,logincdn.msauth.net,Copilot
+HOST,account.live.com,Copilot
+HOST,acctcdn.msauth.net,Copilot
+HOST,HOST,substrate.office.com,Copilot
+HOST,ssl.bing.com,Copilot
+HOST,login.microsoftonline.com,Copilot
