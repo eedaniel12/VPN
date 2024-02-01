@@ -28,6 +28,6 @@ payload:
   - DOMAIN,logincdn.msauth.net
   - DOMAIN,account.live.com
   - DOMAIN,acctcdn.msauth.net
-  - DOMAIN,DOMAIN,substrate.office.com
+  - DOMAIN,substrate.office.com
   - DOMAIN,ssl.bing.com
   - DOMAIN,login.microsoftonline.com
