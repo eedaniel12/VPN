@@ -1,0 +1,5 @@
+# NAME: Proxy_Kong
+# UPDATED: 2024-03-19
+payload:
+  - DOMAIN,injections.adguard.org
+  - DOMAIN,dl.wechat.com

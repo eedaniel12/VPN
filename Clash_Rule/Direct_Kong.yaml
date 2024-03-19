@@ -1,0 +1,10 @@
+# NAME: Direct_Kong
+# UPDATED: 2024-03-19
+payload:
+  - DOMAIN,api-shoulei-ssl.xunlei.com
+  - DOMAIN,sapi.trafficmanager.net
+  - DOMAIN-SUFFIX,eedaniel.com
+  - DOMAIN-SUFFIX,hutaod.com
+  - DOMAIN-KEYWORD,anydesk
+  - IP-CIDR,65.52.170.158/32,no-resolve
+  - IP-CIDR,20.27.49.58/32,no-resolve
