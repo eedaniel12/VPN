@@ -13,4 +13,4 @@ payload:
   - DOMAIN-SUFFIX,notion.site
   - DOMAIN-SUFFIX,notion.so
   - DOMAIN-KEYWORD,notion
-  - URL-REGEX,(.+\.|^)(notion)\.([A-Za-z0-9]+$)
+  - DOMAIN-REGEX,(.+\.|^)(notion)\.([A-Za-z0-9]+$)
