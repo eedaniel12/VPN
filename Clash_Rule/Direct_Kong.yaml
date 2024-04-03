@@ -4,6 +4,7 @@ payload:
   - DOMAIN,api-shoulei-ssl.xunlei.com
   - DOMAIN,sapi.trafficmanager.net
   - DOMAIN-SUFFIX,eedaniel.com
+  - DOMAIN,www.googleadservices.com
   - DOMAIN-KEYWORD,hutao
   - DOMAIN-KEYWORD,anydesk
   - IP-CIDR,65.52.170.158/32,no-resolve
