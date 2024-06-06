@@ -2,7 +2,6 @@
 # UPDATED: 2024-03-19
 payload:
   - DOMAIN,api-shoulei-ssl.xunlei.com
-  - DOMAIN,sapi.trafficmanager.net
   - DOMAIN-SUFFIX,eedaniel.com
   - DOMAIN-SUFFIX,hutaod.com
   - DOMAIN-KEYWORD,anydesk
