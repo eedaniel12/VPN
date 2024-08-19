@@ -2,3 +2,4 @@
 # UPDATED: 2024-03-19
 payload:
   - DOMAIN,local.adguard.org
+  - DOMAIN-SUFFIX,aiseet.atianqi.com
