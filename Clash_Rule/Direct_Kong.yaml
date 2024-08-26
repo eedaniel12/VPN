@@ -2,10 +2,7 @@
 # UPDATED: 2024-03-19
 payload:
   - DOMAIN,api-shoulei-ssl.xunlei.com
-  - DOMAIN-SUFFIX,eedaniel.com
-  - DOMAIN-SUFFIX,hutaod.com
+  - DOMAIN-KEYWORD,eedaniel.com
   - DOMAIN-KEYWORD,anydesk
   - DOMAIN-KEYWORD,parsec
   - DOMAIN-KEYWORD,bitwarden
-  - IP-CIDR,52.184.69.37/32,no-resolve
-  - IP-CIDR,20.2.116.242/32,no-resolve
