@@ -34,7 +34,7 @@ jobs:
       - name: Commit and push changes
         run: |
           git config --global user.email "${{ secrets.EMAIL }}"
-          git config --global user.name "eedaniel12"
+          git config --global user.name "${{ secrets.USERNAME }}"
           git add Clash_Rule/iptv_address.txt
           git commit -m "Update iptv_address.txt in Clash_Rule folder" || echo "No changes to commit"
           git push
