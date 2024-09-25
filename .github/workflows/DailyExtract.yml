@@ -19,8 +19,12 @@ jobs:
 
       - name: Run extract script
         run: |
-          chmod +x ./extract.sh
-          ./extract.sh
+          #!/bin/bash
+          # 下载文件并提取第一个匹配，添加 /32,no-resolve
+          curl -s https://gitee.com/sunhaoyuan55/tool/raw/ceshi/ipv4.m3u | \
+          grep -Eo '((25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(25[0-5]|2[0-4]\d|[01]?\d\d?)' | \
+          sort -u | \
+          sed 's/$/\/32,no-resolve/' > output.txt
 
       - name: Move output.txt to Clash_Rule folder
         run: |
