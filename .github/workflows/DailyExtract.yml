@@ -23,9 +23,15 @@ jobs:
           # 下载文件并提取第一个匹配，添加 /32,no-resolve
           response=$(curl -s https://gitee.com/sunhaoyuan55/tool/raw/ceshi/ipv4.m3u)
           echo "$response"  # 输出内容
-          echo "$response" | grep -Eo '((25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(25[0-5]|2[0-4]\d|[01]?\d\d?)' | \
-          sort -u | \
-          sed 's/$/\/32,no-resolve/' > iptv_address.txt
+
+          # 使用 grep 匹配 IP 地址并将结果存储在变量中
+          matched_ips=$(echo "$response" | grep -Eo '((25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(25[0-5]|2[0-4]\d|[01]?\d\d?)')
+          
+          # 输出匹配的结果
+          echo "$matched_ips"
+
+          # 将匹配结果进一步处理并保存到文件
+          echo "$matched_ips" | sort -u | sed 's/$/\/32,no-resolve/' > iptv_address.txt
 
       - name: Move iptv_address.txt to Clash_Rule folder
         run: |
