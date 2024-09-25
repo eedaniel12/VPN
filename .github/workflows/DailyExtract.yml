@@ -25,7 +25,7 @@ jobs:
           echo "$response"  # 输出内容
 
           # 使用 grep 匹配 IP 地址并将结果存储在变量中
-          matched_ips=$(echo "$response" | grep -Eo '((25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(25[0-5]|2[0-4]\d|[01]?\d\d?)')
+          matched_ips=$(echo "$response" | grep -Eo '((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)')
           
           # 输出匹配的结果
           echo "$matched_ips"
