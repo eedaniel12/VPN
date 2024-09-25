@@ -24,19 +24,19 @@ jobs:
           curl -s https://gitee.com/sunhaoyuan55/tool/raw/ceshi/ipv4.m3u | \
           grep -Eo '((25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(25[0-5]|2[0-4]\d|[01]?\d\d?)' | \
           sort -u | \
-          sed 's/$/\/32,no-resolve/' > output.txt
+          sed 's/$/\/32,no-resolve/' > iptv_address.txt
 
-      - name: Move output.txt to Clash_Rule folder
+      - name: Move iptv_address.txt to Clash_Rule folder
         run: |
           mkdir -p Clash_Rule  # 确保 Clash_Rule 文件夹存在
-          mv output.txt Clash_Rule/
+          mv iptv_address.txt Clash_Rule/
 
       - name: Commit and push changes
         run: |
           git config --local user.email "${{ secrets.EMAIL }}"
           git config --local user.name "${{ secrets.USERNAME }}"
-          git add Clash_Rule/output.txt
-          git commit -m "Update output.txt in Clash_Rule folder" || echo "No changes to commit"
+          git add Clash_Rule/iptv_address.txt
+          git commit -m "Update iptv_address.txt in Clash_Rule folder" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
