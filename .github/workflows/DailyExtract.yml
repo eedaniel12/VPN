@@ -22,18 +22,18 @@ jobs:
       # Step 3: Install Python dependencies
       - name: Install dependencies
         run: |
-	  python -m pip install requests
+          python -m pip install requests
 
       # Step 4: Download ipv4.m3u file
       - name: Download ipv4.m3u
         run: |
-	  curl -o ipv4.m3u https://gitee.com/sunhaoyuan55/tool/raw/ceshi/ipv4.m3u
+          curl -o ipv4.m3u https://gitee.com/sunhaoyuan55/tool/raw/ceshi/ipv4.m3u
 
       # Step 5: Run Python script to process the file
       - name: Run extract script
         run: |
-	  import re
-	  import requests
+          import re
+          import requests
 
       # Step 5.1: Read the content of the downloaded file
       with open('ipv4.m3u', 'r') as file:
