@@ -1,98 +1,88 @@
 payload:
-  - Domain,('61.221.215.25', ':8800')
-  - Domain,('123.166.61.70', ':8003')
-  - Domain,('111.61.236.247', ':9081')
-  - Domain,('123.138.216.44', ':9902')
-  - Domain,('rt-glb.rttv.com', '')
-  - Domain,('cfss.cc', '')
-  - Domain,('zby.xjqxz.top', '')
-  - Domain,('live.cooltv.top', '')
-  - Domain,('173.208.176.178', ':19806')
-  - Domain,('222.241.154.37', ':9901')
-  - Domain,('159.75.85.63', ':35455')
-  - Domain,('streamsy.online', ':2999')
-  - Domain,('58.220.219.14', ':9901')
-  - Domain,('php.jdshipin.com', '')
-  - Domain,('d2e1asnsl7br7b.cloudfront.net', '')
-  - Domain,('220.168.77.132', ':8082')
-  - Domain,('49.0.64.96', ':8007')
-  - Domain,('node1.olelive.com', ':6443')
-  - Domain,('livestar.siliconweb.com', '')
-  - Domain,('livestream-bt.nmtv.cn', '')
-  - Domain,('113.9.155.47', ':88')
-  - Domain,('ali.hlspull.yximgs.com', '')
-  - Domain,('ottrrs.hl.chinamobile.com', '')
-  - Domain,('116.128.242.83', ':9901')
-  - Domain,('fox-foxnewsnow-samsungus.amagi.tv', '')
-  - Domain,('36.32.174.67', ':60080')
-  - Domain,('stream1.freetv.fun', '')
-  - Domain,('120.76.248.139', '')
-  - Domain,('223.151.51.74', ':9901')
-  - Domain,('123.7.110.43', ':9901')
-  - Domain,('www.syl88.online', ':8123')
-  - Domain,('113.9.161.191', ':88')
-  - Domain,('live.iill.top', '')
   - Domain,('stream.qhbtv.com', '')
-  - Domain,('www.cbsnews.com', '')
-  - Domain,('111.9.163.109', ':9901')
+  - Domain,('live.iill.top', '')
   - Domain,('ldncctvwbndali.v.myalicdn.com', '')
-  - Domain,('125.89.163.44', ':8888')
-  - Domain,('rt-rtd.rttv.com', '')
-  - Domain,('38.64.72.148', '')
-  - Domain,('bziyunshao.synology.me', ':8890')
+  - Domain,('ottrrs.hl.chinamobile.com', '')
   - Domain,('live-hls-web-aje.getaj.net', '')
-  - Domain,('119.77.96.184', ':1935')
-  - Domain,('bcovlive-a.akamaihd.net', '')
-  - Domain,('php.jdshipin.com', ':8880')
-  - Domain,('202.100.46.58', ':9901')
-  - Domain,('0472.org', '')
-  - Domain,('124.94.193.136', ':9902')
-  - Domain,('mediaworks.dema.mil.kr', ':1935')
-  - Domain,('live-gbnews.simplestreamcdn.com', '')
-  - Domain,('zhibo.hkstv.tv', '')
-  - Domain,('tv-trtworld.live.trt.com.tr', '')
-  - Domain,('123.182.60.29', ':9002')
-  - Domain,('litv.zapi.us.kg', '')
-  - Domain,('ali-m-l.cztv.com', '')
-  - Domain,('mobilelive-ds.ysp.cctv.cn', '')
-  - Domain,('120.238.99.51', ':8888')
+  - Domain,('173.208.176.178', ':19806')
   - Domain,('s.cdhongyuan.cn', ':4022')
+  - Domain,('cfss.cc', '')
+  - Domain,('123.7.110.43', ':9901')
+  - Domain,('202.100.46.58', ':9901')
+  - Domain,('220.168.77.132', ':8082')
+  - Domain,('113.9.161.191', ':88')
+  - Domain,('113.9.155.47', ':88')
+  - Domain,('223.151.51.74', ':9901')
+  - Domain,('zhibo.hkstv.tv', '')
+  - Domain,('ali.hlspull.yximgs.com', '')
+  - Domain,('111.61.236.247', ':9081')
+  - Domain,('49.0.64.96', ':8007')
+  - Domain,('61.221.215.25', ':8800')
   - Domain,('cnn-cnninternational-1-eu.rakuten.wurl.tv', '')
-  - Domain,('origin.lean.org.cn', ':4000')
-  - Domain,('news1.live14.com', '')
+  - Domain,('d2e1asnsl7br7b.cloudfront.net', '')
+  - Domain,('livestar.siliconweb.com', '')
+  - Domain,('222.241.154.37', ':9901')
+  - Domain,('0472.org', '')
+  - Domain,('php.jdshipin.com', '')
+  - Domain,('php.jdshipin.com', ':8880')
+  - Domain,('tv-trtworld.live.trt.com.tr', '')
+  - Domain,('119.77.96.184', ':1935')
+  - Domain,('120.238.99.51', ':8888')
+  - Domain,('www.syl88.online', ':8123')
+  - Domain,('rt-rtd.rttv.com', '')
+  - Domain,('live-gbnews.simplestreamcdn.com', '')
   - Domain,('zzy789.xyz', '')
+  - Domain,('123.182.60.29', ':9002')
+  - Domain,('www.cbsnews.com', '')
+  - Domain,('node1.olelive.com', ':6443')
+  - Domain,('livestream-bt.nmtv.cn', '')
+  - Domain,('news1.live14.com', '')
+  - Domain,('58.220.219.14', ':9901')
+  - Domain,('streamsy.online', ':2999')
+  - Domain,('159.75.85.63', ':35455')
+  - Domain,('124.94.193.136', ':9902')
   - Domain,('zb.xzxwhcb.com', ':9999')
-  - IP-CIDR,('99.', '99', '51', ':8888')/32,no-resolve
-  - IP-CIDR,('51.', '51', '74', ':9901')/32,no-resolve
-  - IP-CIDR,('248.', '248', '139', '')/32,no-resolve
-  - IP-CIDR,('236.', '236', '247', ':9081')/32,no-resolve
-  - IP-CIDR,('72.', '72', '148', '')/32,no-resolve
-  - IP-CIDR,('161.', '161', '191', ':88')/32,no-resolve
-  - IP-CIDR,('163.', '163', '109', ':9901')/32,no-resolve
-  - IP-CIDR,('242.', '242', '83', ':9901')/32,no-resolve
-  - IP-CIDR,('163.', '163', '44', ':8888')/32,no-resolve
-  - IP-CIDR,('60.', '60', '29', ':9002')/32,no-resolve
-  - IP-CIDR,('154.', '154', '37', ':9901')/32,no-resolve
-  - IP-CIDR,('155.', '155', '47', ':88')/32,no-resolve
-  - IP-CIDR,('193.', '193', '136', ':9902')/32,no-resolve
-  - IP-CIDR,('174.', '174', '67', ':60080')/32,no-resolve
-  - IP-CIDR,('64.', '64', '96', ':8007')/32,no-resolve
-  - IP-CIDR,('110.', '110', '43', ':9901')/32,no-resolve
-  - IP-CIDR,('219.', '219', '14', ':9901')/32,no-resolve
-  - IP-CIDR,('215.', '215', '25', ':8800')/32,no-resolve
-  - IP-CIDR,('46.', '46', '58', ':9901')/32,no-resolve
-  - IP-CIDR,('77.', '77', '132', ':8082')/32,no-resolve
-  - IP-CIDR,('85.', '85', '63', ':35455')/32,no-resolve
-  - IP-CIDR,('176.', '176', '178', ':19806')/32,no-resolve
-  - IP-CIDR,('96.', '96', '184', ':1935')/32,no-resolve
-  - IP-CIDR,('61.', '61', '70', ':8003')/32,no-resolve
-  - IP-CIDR,('216.', '216', '44', ':9902')/32,no-resolve
+  - Domain,('zby.xjqxz.top', '')
+  - Domain,('123.166.61.70', ':8003')
+  - Domain,('125.89.163.44', ':8888')
+  - Domain,('36.32.174.67', ':60080')
+  - Domain,('bziyunshao.synology.me', ':8890')
+  - Domain,('origin.lean.org.cn', ':4000')
+  - Domain,('ali-m-l.cztv.com', '')
+  - Domain,('38.64.72.148', '')
+  - Domain,('123.138.216.44', ':9902')
+  - Domain,('litv.zapi.us.kg', '')
+  - Domain,('mediaworks.dema.mil.kr', ':1935')
+  - Domain,('live.cooltv.top', '')
+  - Domain,('bcovlive-a.akamaihd.net', '')
+  - Domain,('rt-glb.rttv.com', '')
+  - Domain,('fox-foxnewsnow-samsungus.amagi.tv', '')
+  - Domain,('120.76.248.139', '')
+  - Domain,('stream1.freetv.fun', '')
+  - Domain,('111.9.163.109', ':9901')
+  - Domain,('116.128.242.83', ':9901')
+  - Domain,('mobilelive-ds.ysp.cctv.cn', '')
+  - IP-CIDR,/32,no-resolve
+  - IP-CIDR,:1935/32,no-resolve
+  - IP-CIDR,:9002/32,no-resolve
+  - IP-CIDR,:8888/32,no-resolve
+  - IP-CIDR,:88/32,no-resolve
+  - IP-CIDR,:9902/32,no-resolve
+  - IP-CIDR,:35455/32,no-resolve
+  - IP-CIDR,:9081/32,no-resolve
+  - IP-CIDR,:60080/32,no-resolve
+  - IP-CIDR,:8007/32,no-resolve
+  - IP-CIDR,:8800/32,no-resolve
+  - IP-CIDR,:9901/32,no-resolve
+  - IP-CIDR,:19806/32,no-resolve
+  - IP-CIDR,:8003/32,no-resolve
+  - IP-CIDR,:8082/32,no-resolve
+  - IP-CIDR6,2409:8087:1a01:df::7005/128,no-resolve
+  - IP-CIDR6,2409:8087:1a01:df::403b/128,no-resolve
+  - IP-CIDR6,2409:8087:1a01:df::404d/128,no-resolve
+  - IP-CIDR6,2409:8087:74d9:21::6/128,no-resolve
+  - IP-CIDR6,2409:8087:1a01:df::4033/128,no-resolve
+  - IP-CIDR6,2409:8087:1a01:df::4077/128,no-resolve
   - IP-CIDR6,2409:8087:1a01:df::4046/128,no-resolve
   - IP-CIDR6,2409:8087:5e00:24::1e/128,no-resolve
-  - IP-CIDR6,2409:8087:1a01:df::4077/128,no-resolve
-  - IP-CIDR6,2409:8087:1a01:df::403b/128,no-resolve
-  - IP-CIDR6,2409:8087:1a01:df::4033/128,no-resolve
   - IP-CIDR6,2409:8087:1a01:df::402a/128,no-resolve
-  - IP-CIDR6,2409:8087:1a01:df::404d/128,no-resolve
-  - IP-CIDR6,2409:8087:1a01:df::7005/128,no-resolve
-  - IP-CIDR6,2409:8087:74d9:21::6/128,no-resolve
