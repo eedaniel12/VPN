@@ -37,13 +37,13 @@ jobs:
           with open('ipv4.m3u', 'r') as file:
             content = file.read()
 
-          domain_pattern = r'(?<=https?://)([a-zA-Z0-9.-]+)(?=(:[0-9]{1,5})?/)'
+          domain_pattern = r'(?<=://)([a-zA-Z0-9.-]+)(?=(:[0-9]{1,5})?/)'
           domains = re.findall(domain_pattern, content)
 
-          ipv4_pattern = r'(?<=https?://)((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(?=(:[0-9]{1,5})?/)'
+          ipv4_pattern = r'(?<=://)((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(?=(:[0-9]{1,5})?/)'
           ipv4s = re.findall(ipv4_pattern, content)
 
-          ipv6_pattern = r'(?<=\[)([0-9a-fA-F:]+)(?=\])'
+          ipv6_pattern = r'(?<=://\[)([0-9a-fA-F:]+)(?=\])'
           ipv6s = re.findall(ipv6_pattern, content)
 
           with open('iptv_address.txt', 'a') as output_file:
