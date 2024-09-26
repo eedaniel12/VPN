@@ -50,7 +50,7 @@ jobs:
             output_file.write('payload:\n')
             for domain in set(domains):
               if domain not in set(ipv4s):
-                output_file.write(f'  - Domain,{domain}\n')
+                output_file.write(f'  - DOMAIN-SUFFIX,{domain}\n')
             for ipv4 in set(ipv4s):
               output_file.write(f'  - IP-CIDR,{ipv4}/32,no-resolve\n')
             for ipv6 in set(ipv6s):
