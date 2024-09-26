@@ -1,8 +1,6 @@
 # NAME: Direct_Kong
 # UPDATED: 2024-03-19
 payload:
-  - DOMAIN,api-shoulei-ssl.xunlei.com
   - DOMAIN-KEYWORD,eedaniel
   - DOMAIN-KEYWORD,anydesk
   - DOMAIN-KEYWORD,parsec
-  - DOMAIN-KEYWORD,bitwarden
