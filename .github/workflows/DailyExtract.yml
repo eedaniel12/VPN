@@ -24,21 +24,12 @@ jobs:
           response=$(curl -s https://gitee.com/sunhaoyuan55/tool/raw/ceshi/ipv4.m3u)
           # echo "$response"  # 输出内容
 
-          # 使用 grep 匹配 域名和IP 地址并将结果存储在变量中
-          # matched_domain=$(echo "$response" | grep -Eo '(?<=//)([a-zA-Z0-9.-]+)(?::[0-9]{1,5})?(?=/)')
-          # echo "$matched_domain"
+          # 使用 grep 匹配 IP 地址并将结果存储在变量中
           matched_ipv4=$(echo "$response" | grep -Eo '((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)')
           echo "$matched_ipv4"
-          matched_ipv6=$(echo "$response" | grep -Eo '(?<=\[)([0-9a-fA-F:]+)(?=\])')
-          echo "$matched_ipv6"
-          
-          # 输出匹配的结果
-          # echo -e "$matched_domain\n$matched_ipv4\n$matched_ipv6"
 
           # 将匹配结果进一步处理并保存到文件
-          # echo "$matched_domain" | sort -u | sed 's/^/DOMAIN,/' > iptv_address.txt
           echo "$matched_ipv4" | sort -u | sed 's/^/IP-CIDR,/' | sed 's/$/\/32,no-resolve/' > iptv_address.txt
-          echo "$matched_ipv6" | sort -u | sed 's/^/IP-CIDR6,/' | sed 's/$/\/128,no-resolve/' >> iptv_address.txt
 
       - name: Move iptv_address.txt to Clash_Rule folder
         run: |
