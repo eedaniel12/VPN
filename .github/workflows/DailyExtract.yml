@@ -37,7 +37,7 @@ jobs:
           with open('ipv4.m3u', 'r') as file:
             content = file.read()
 
-          domain_pattern = r'(?<=://)(?:([a-zA-Z0-9.-]+))(?=(:[0-9]{1,5})?/)'
+          domain_pattern = r'(?<=://)(?:([a-zA-Z0-9.-]+))'
           domains = re.findall(domain_pattern, content)
 
           ipv4_pattern = r'(?<=://)(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)'
