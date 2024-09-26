@@ -25,7 +25,7 @@ jobs:
           # echo "$response"  # 输出内容
 
           # 使用 grep 匹配 域名和IP 地址并将结果存储在变量中
-          matched_domain=$(echo "$response" | grep -Eo '(?<=http://)([a-zA-Z0-9.-]+)(?::[0-9]{1,5})?(?=/)')
+          matched_domain=$(echo "$response" | grep -Eo '(?<=//)([a-zA-Z0-9.-]+)(?::[0-9]{1,5})?(?=/)')
           echo "$matched_domain"
           matched_ipv4=$(echo "$response" | grep -Eo '((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)')
           echo "$matched_ipv4"
