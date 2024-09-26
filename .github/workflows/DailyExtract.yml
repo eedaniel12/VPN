@@ -9,27 +9,60 @@ jobs:
   run-script:
     runs-on: ubuntu-latest
     steps:
+      # Step 1: Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Step 2: Set up Python environment
       - name: Set up environment
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y curl
+        uses: actions/setup-python@v5
+        with:
+	        python-version: '3.10'
 
+	    # Step 3: Install Python dependencies
+	    - name: Install dependencies
+	      run: |
+	        python -m pip install requests
+
+	    # Step 4: Download ipv4.m3u file
+	    - name: Download ipv4.m3u
+	      run: |
+	        curl -o ipv4.m3u https://gitee.com/sunhaoyuan55/tool/raw/ceshi/ipv4.m3u
+
+      # Step 5: Run Python script to process the file
       - name: Run extract script
         run: |
-          #!/bin/bash
-          # 下载文件并提取第一个匹配，添加 /32,no-resolve
-          response=$(curl -s https://gitee.com/sunhaoyuan55/tool/raw/ceshi/ipv4.m3u)
-          # echo "$response"  # 输出内容
+	        import re
+	        import requests
 
-          # 使用 grep 匹配 IP 地址并将结果存储在变量中
-          matched_ipv4=$(echo "$response" | grep -Eo '((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)')
-          echo "$matched_ipv4"
-
-          # 将匹配结果进一步处理并保存到文件
-          echo "$matched_ipv4" | sort -u | sed 's/^/IP-CIDR,/' | sed 's/$/\/32,no-resolve/' > iptv_address.txt
+	        # Step 5.1: Read the content of the downloaded file
+	        with open('ipv4.m3u', 'r') as file:
+	            content = file.read()
+          
+          # Step 5.2: Regex to find domain names
+          domain_pattern = r'(?<=//)([a-zA-Z0-9.-]+)(?=(:[0-9]{1,5})|/)'
+          domains = re.findall(domain_pattern, content)
+          
+          # Step 5.3: Regex to find IPv4 addresses
+          ipv4_pattern = r'((25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(25[0-5]|2[0-4]\d|[01]?\d\d?)'
+          ipv4s = re.findall(ipv4_pattern, content)
+          
+          # Step 5.4: Regex to find IPv6 addresses
+          ipv6_pattern = r'(?<=\[)([0-9a-fA-F:]+)(?=\])'
+          ipv6s = re.findall(ipv6_pattern, content)
+          
+          # Step 5.5: Write matched domain names to output.txt with the desired format
+          with open('iptv_address.txt', 'a') as output_file:
+	          output_file.write('payload:\n')
+	          for domain in set(domains):
+		          if domain not in set(ipv4s):
+			          output_file.write(f'- Domain,{domain}\n')
+          
+	          for ipv4 in set(ipv4s):
+		          output_file.write(f'- IP-CIDR,{ipv4}/32,no-resolve\n')
+		          
+		        for ipv6 in set(ipv6s):
+			        output_file.write(f'- IP-CIDR6,{ipv6}/128,no-resolve\n')
 
       - name: Move iptv_address.txt to Clash_Rule folder
         run: |
