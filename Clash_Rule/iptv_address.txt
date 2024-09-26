@@ -1,98 +1,72 @@
 payload:
-  - Domain,('123.166.61.70', ':8003')
-  - Domain,('220.168.77.132', ':8082')
-  - Domain,('zby.xjqxz.top', '')
-  - Domain,('120.76.248.139', '')
-  - Domain,('173.208.176.178', ':19806')
-  - Domain,('0472.org', '')
-  - Domain,('stream1.freetv.fun', '')
-  - Domain,('live.iill.top', '')
-  - Domain,('mediaworks.dema.mil.kr', ':1935')
-  - Domain,('125.89.163.44', ':8888')
-  - Domain,('zzy789.xyz', '')
-  - Domain,('www.syl88.online', ':8123')
-  - Domain,('111.9.163.109', ':9901')
-  - Domain,('223.151.51.74', ':9901')
-  - Domain,('php.jdshipin.com', ':8880')
-  - Domain,('live-hls-web-aje.getaj.net', '')
-  - Domain,('ali.hlspull.yximgs.com', '')
-  - Domain,('live-gbnews.simplestreamcdn.com', '')
-  - Domain,('116.128.242.83', ':9901')
-  - Domain,('litv.zapi.us.kg', '')
-  - Domain,('113.9.155.47', ':88')
-  - Domain,('livestar.siliconweb.com', '')
-  - Domain,('www.cbsnews.com', '')
-  - Domain,('ldncctvwbndali.v.myalicdn.com', '')
-  - Domain,('61.221.215.25', ':8800')
-  - Domain,('livestream-bt.nmtv.cn', '')
-  - Domain,('123.182.60.29', ':9002')
-  - Domain,('111.61.236.247', ':9081')
-  - Domain,('tv-trtworld.live.trt.com.tr', '')
-  - Domain,('mobilelive-ds.ysp.cctv.cn', '')
-  - Domain,('fox-foxnewsnow-samsungus.amagi.tv', '')
-  - Domain,('php.jdshipin.com', '')
-  - Domain,('d2e1asnsl7br7b.cloudfront.net', '')
-  - Domain,('bcovlive-a.akamaihd.net', '')
-  - Domain,('news1.live14.com', '')
-  - Domain,('streamsy.online', ':2999')
-  - Domain,('zhibo.hkstv.tv', '')
-  - Domain,('36.32.174.67', ':60080')
-  - Domain,('bziyunshao.synology.me', ':8890')
-  - Domain,('49.0.64.96', ':8007')
-  - Domain,('159.75.85.63', ':35455')
-  - Domain,('38.64.72.148', '')
-  - Domain,('58.220.219.14', ':9901')
-  - Domain,('origin.lean.org.cn', ':4000')
-  - Domain,('cnn-cnninternational-1-eu.rakuten.wurl.tv', '')
-  - Domain,('ottrrs.hl.chinamobile.com', '')
-  - Domain,('202.100.46.58', ':9901')
-  - Domain,('124.94.193.136', ':9902')
-  - Domain,('zb.xzxwhcb.com', ':9999')
-  - Domain,('ali-m-l.cztv.com', '')
-  - Domain,('113.9.161.191', ':88')
-  - Domain,('cfss.cc', '')
-  - Domain,('rt-rtd.rttv.com', '')
-  - Domain,('rt-glb.rttv.com', '')
-  - Domain,('123.7.110.43', ':9901')
-  - Domain,('s.cdhongyuan.cn', ':4022')
-  - Domain,('120.238.99.51', ':8888')
-  - Domain,('123.138.216.44', ':9902')
-  - Domain,('node1.olelive.com', ':6443')
-  - Domain,('119.77.96.184', ':1935')
-  - Domain,('stream.qhbtv.com', '')
-  - Domain,('222.241.154.37', ':9901')
-  - Domain,('live.cooltv.top', '')
-  - IP-CIDR,116.128.242.83/32,no-resolve
-  - IP-CIDR,220.168.77.132/32,no-resolve
-  - IP-CIDR,36.32.174.67/32,no-resolve
-  - IP-CIDR,58.220.219.14/32,no-resolve
-  - IP-CIDR,202.100.46.58/32,no-resolve
-  - IP-CIDR,38.64.72.148/32,no-resolve
-  - IP-CIDR,113.9.155.47/32,no-resolve
-  - IP-CIDR,159.75.85.63/32,no-resolve
-  - IP-CIDR,120.238.99.51/32,no-resolve
-  - IP-CIDR,124.94.193.136/32,no-resolve
-  - IP-CIDR,123.166.61.70/32,no-resolve
-  - IP-CIDR,123.138.216.44/32,no-resolve
-  - IP-CIDR,120.76.248.139/32,no-resolve
-  - IP-CIDR,173.208.176.178/32,no-resolve
-  - IP-CIDR,125.89.163.44/32,no-resolve
-  - IP-CIDR,49.0.64.96/32,no-resolve
-  - IP-CIDR,123.7.110.43/32,no-resolve
+  - Domain,live-gbnews.simplestreamcdn.com
+  - Domain,bcovlive-a.akamaihd.net
+  - Domain,cfss.cc
+  - Domain,rt-glb.rttv.com
+  - Domain,live.iill.top
+  - Domain,streamsy.online
+  - Domain,php.jdshipin.com
+  - Domain,fox-foxnewsnow-samsungus.amagi.tv
+  - Domain,ottrrs.hl.chinamobile.com
+  - Domain,bziyunshao.synology.me
+  - Domain,zzy789.xyz
+  - Domain,s.cdhongyuan.cn
+  - Domain,stream1.freetv.fun
+  - Domain,rt-rtd.rttv.com
+  - Domain,mobilelive-ds.ysp.cctv.cn
+  - Domain,stream.qhbtv.com
+  - Domain,www.cbsnews.com
+  - Domain,live.cooltv.top
+  - Domain,tv-trtworld.live.trt.com.tr
+  - Domain,0472.org
+  - Domain,ali-m-l.cztv.com
+  - Domain,node1.olelive.com
+  - Domain,cnn-cnninternational-1-eu.rakuten.wurl.tv
+  - Domain,zby.xjqxz.top
+  - Domain,litv.zapi.us.kg
+  - Domain,livestream-bt.nmtv.cn
+  - Domain,ali.hlspull.yximgs.com
+  - Domain,www.syl88.online
+  - Domain,livestar.siliconweb.com
+  - Domain,mediaworks.dema.mil.kr
+  - Domain,live-hls-web-aje.getaj.net
+  - Domain,zhibo.hkstv.tv
+  - Domain,zb.xzxwhcb.com
+  - Domain,news1.live14.com
+  - Domain,ldncctvwbndali.v.myalicdn.com
+  - Domain,origin.lean.org.cn
+  - Domain,d2e1asnsl7br7b.cloudfront.net
   - IP-CIDR,222.241.154.37/32,no-resolve
   - IP-CIDR,123.182.60.29/32,no-resolve
-  - IP-CIDR,223.151.51.74/32,no-resolve
-  - IP-CIDR,113.9.161.191/32,no-resolve
-  - IP-CIDR,61.221.215.25/32,no-resolve
-  - IP-CIDR,111.9.163.109/32,no-resolve
+  - IP-CIDR,49.0.64.96/32,no-resolve
+  - IP-CIDR,202.100.46.58/32,no-resolve
+  - IP-CIDR,173.208.176.178/32,no-resolve
+  - IP-CIDR,125.89.163.44/32,no-resolve
+  - IP-CIDR,113.9.155.47/32,no-resolve
+  - IP-CIDR,116.128.242.83/32,no-resolve
   - IP-CIDR,119.77.96.184/32,no-resolve
+  - IP-CIDR,123.166.61.70/32,no-resolve
+  - IP-CIDR,36.32.174.67/32,no-resolve
+  - IP-CIDR,159.75.85.63/32,no-resolve
+  - IP-CIDR,38.64.72.148/32,no-resolve
+  - IP-CIDR,220.168.77.132/32,no-resolve
+  - IP-CIDR,123.138.216.44/32,no-resolve
+  - IP-CIDR,123.7.110.43/32,no-resolve
+  - IP-CIDR,111.9.163.109/32,no-resolve
+  - IP-CIDR,223.151.51.74/32,no-resolve
   - IP-CIDR,111.61.236.247/32,no-resolve
-  - IP-CIDR6,2409:8087:1a01:df::404d/128,no-resolve
-  - IP-CIDR6,2409:8087:1a01:df::7005/128,no-resolve
+  - IP-CIDR,113.9.161.191/32,no-resolve
+  - IP-CIDR,120.76.248.139/32,no-resolve
+  - IP-CIDR,124.94.193.136/32,no-resolve
+  - IP-CIDR,120.238.99.51/32,no-resolve
+  - IP-CIDR,61.221.215.25/32,no-resolve
+  - IP-CIDR,58.220.219.14/32,no-resolve
+  - IP-CIDR6,2409:8087:1a01:df::403b/128,no-resolve
+  - IP-CIDR6,2409:8087:1a01:df::4077/128,no-resolve
   - IP-CIDR6,2409:8087:1a01:df::4033/128,no-resolve
+  - IP-CIDR6,2409:8087:74d9:21::6/128,no-resolve
+  - IP-CIDR6,2409:8087:1a01:df::7005/128,no-resolve
   - IP-CIDR6,2409:8087:5e00:24::1e/128,no-resolve
   - IP-CIDR6,2409:8087:1a01:df::4046/128,no-resolve
-  - IP-CIDR6,2409:8087:1a01:df::4077/128,no-resolve
-  - IP-CIDR6,2409:8087:1a01:df::403b/128,no-resolve
   - IP-CIDR6,2409:8087:1a01:df::402a/128,no-resolve
-  - IP-CIDR6,2409:8087:74d9:21::6/128,no-resolve
+  - IP-CIDR6,2409:8087:1a01:df::404d/128,no-resolve
