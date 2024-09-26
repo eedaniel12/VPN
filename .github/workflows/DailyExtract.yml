@@ -29,6 +29,7 @@ jobs:
       # Run Python script to process the file
       - name: Run extract script
         run: |
+          python -c "
           import re
           import requests
 
@@ -53,6 +54,7 @@ jobs:
                 output_file.write(f'- IP-CIDR,{ipv4}/32,no-resolve\n')
               for ipv6 in set(ipv6s):
                 output_file.write(f'- IP-CIDR6,{ipv6}/128,no-resolve\n')
+          "
 
       - name: Move iptv_address.txt to Clash_Rule folder
         run: |
