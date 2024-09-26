@@ -19,12 +19,13 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install requests
+          python -m pip install --upgrade pip
+          python -m pip install --upgrade requests
 
       # Download ipv4.m3u file
       - name: Download ipv4.m3u
         run: |
-          curl -o ipv4.m3u https://gitee.com/sunhaoyuan55/tool/raw/ceshi/ipv4.m3u
+          curl -L --fail -o ipv4.m3u https://gitee.com/sunhaoyuan55/tool/raw/ceshi/ipv4.m3u
 
       # Run Python script to process the file
       - name: Run extract script
@@ -47,14 +48,15 @@ jobs:
 
           with open('iptv_address.txt', 'a') as output_file:
             output_file.write('payload:\n')
-              for domain in set(domains):
-                if domain not in set(ipv4s):
-                  output_file.write(f'- Domain,{domain}\n')
-              for ipv4 in set(ipv4s):
-                output_file.write(f'- IP-CIDR,{ipv4}/32,no-resolve\n')
-              for ipv6 in set(ipv6s):
-                output_file.write(f'- IP-CIDR6,{ipv6}/128,no-resolve\n')
+            for domain in set(domains):
+              if domain not in set(ipv4s):
+                output_file.write(f'- Domain,{domain}\n')
+            for ipv4 in set(ipv4s):
+              output_file.write(f'- IP-CIDR,{ipv4[0]}/32,no-resolve\n')
+            for ipv6 in set(ipv6s):
+              output_file.write(f'- IP-CIDR6,{ipv6}/128,no-resolve\n')
           "
+
 
       - name: Move iptv_address.txt to Clash_Rule folder
         run: |
