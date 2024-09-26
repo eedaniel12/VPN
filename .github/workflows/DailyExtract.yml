@@ -29,7 +29,7 @@ jobs:
           echo "$matched_ipv4"
 
           # 将匹配结果进一步处理并保存到文件
-          echo "$matched_ipv4" | sort -u | sed 's/^/IP-CIDR,/' | sed 's/$/\/32,no-resolve/' > iptv_address.txt
+          echo "$matched_ipv4" | sort -u | sed 's/^/IP-CIDR,/' | sed 's/$/\/32/' > iptv_address.txt
 
       - name: Move iptv_address.txt to Clash_Rule folder
         run: |
