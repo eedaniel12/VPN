@@ -2,5 +2,6 @@
 # UPDATED: 2024-03-19
 payload:
   - DOMAIN-SUFFIX,eedaniel.com
+  - DOMAIN-SUFFIX,ntp.org
   - DOMAIN-KEYWORD,anydesk
   - DOMAIN-KEYWORD,parsec
