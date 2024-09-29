@@ -2,7 +2,7 @@ name: DailyExtract
 
 on:
   schedule:
-    - cron: '0 0,12 * * *' # 每天 UTC 时间午夜运行
+    - cron: '0 0,8,16 * * *' # 每天 UTC 时间午夜运行
   workflow_dispatch: # 允许手动触发工作流
 
 jobs:
