@@ -25,7 +25,7 @@ jobs:
       # Download ipv4.m3u file
       - name: Download ipv4.m3u
         run: |
-          curl -L --fail -o ipv4.m3u https://gitee.com/sunhaoyuan55/tool/raw/ceshi/ipv4.m3u
+          curl -L --fail -o ipv4.m3u ${{ secrets.IPTV }}
 
       # Run Python script to process the file
       - name: Run extract script
