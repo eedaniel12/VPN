@@ -25,7 +25,7 @@ jobs:
       # Download ipv4.m3u file
       - name: Download ipv4.m3u
         run: |
-          curl -L --fail -o ipv4.m3u "${{ secrets.IPTV }}"
+          curl -L --fail -o ipv4.m3u ${{ secrets.IPTV }}
 
       # Run Python script to process the file
       - name: Run extract script
@@ -66,7 +66,7 @@ jobs:
       - name: Commit and push changes
         run: |
           git config --global user.email "${{ secrets.EMAIL }}"
-          git config --global user.name "eedaniel12"
+          git config --global user.name "${{ secrets.USERNAME }}"
           git add Clash_Rule/iptv_address.yaml
           git commit -m "Update iptv_address.yaml in Clash_Rule folder" || echo "No changes to commit"
           git push
