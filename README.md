@@ -1,1 +1,1 @@
-# VPN Rules And Scripts
+Rules And Scripts
