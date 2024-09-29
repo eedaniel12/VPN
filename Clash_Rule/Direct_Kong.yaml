@@ -1,6 +1,6 @@
 # NAME: Direct_Kong
 # UPDATED: 2024-03-19
 payload:
-  - DOMAIN-KEYWORD,eedaniel
+  - DOMAIN-SUFFIX,eedaniel.com
   - DOMAIN-KEYWORD,anydesk
   - DOMAIN-KEYWORD,parsec
