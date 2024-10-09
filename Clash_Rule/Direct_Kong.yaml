@@ -1,7 +1,6 @@
 # NAME: Direct_Kong
 # UPDATED: 2024-03-19
 payload:
-  - DOMAIN-SUFFIX,eedaniel.com
   - DOMAIN-SUFFIX,fastly.jsdelivr.net
   - DOMAIN-SUFFIX,ntp.org
   - DOMAIN-KEYWORD,anydesk
