@@ -6,3 +6,5 @@ payload:
   - DOMAIN-SUFFIX,ntp.org
   - DOMAIN-KEYWORD,anydesk
   - DOMAIN-KEYWORD,parsec
+  - DOMAIN-REGEX,^time\d?\.[a-zA-Z0-9.-]*\.(com|gov|cn)$
+  - DOMAIN-REGEX,^ntp\d?\.[a-zA-Z0-9.-]*\.(com|gov|cn)$
