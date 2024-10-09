@@ -30,9 +30,7 @@ payload:
   - DOMAIN-SUFFIX,localhost
   - DOMAIN-SUFFIX,test
   - DOMAIN-SUFFIX,local
-  - DOMAIN-SUFFIX,pool.ntp.org
   - DOMAIN-SUFFIX,time.edu.cn
-  - DOMAIN-SUFFIX,ntp.org.cn
   - DOMAIN-SUFFIX,ipv6.microsoft.com
   - DOMAIN-SUFFIX,in-addr.arpa
   - DOMAIN-SUFFIX,ip6.arpa
