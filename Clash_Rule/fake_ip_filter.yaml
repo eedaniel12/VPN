@@ -89,14 +89,14 @@ payload:
   - DOMAIN-SUFFIX,localhost.ptlogin2.qq.com
   - DOMAIN-SUFFIX,localhost.sec.qq.com
   - DOMAIN-SUFFIX,mcdn.bilivideo.cn
-  - DOMAIN-REGEX,^([a-zA-Z0-9-]*\.)*time\d?\.[a-zA-Z0-9.-]*\.(com|gov|cn|org)$
-  - DOMAIN-REGEX,^([a-zA-Z0-9-]*\.)*ntp\d?\.[a-zA-Z0-9.-]*\.(com|gov|cn|org)$
-  - DOMAIN-REGEX,^appleimap\.[a-zA-Z0-9.-]*\.com$
-  - DOMAIN-REGEX,^imap-mail\.[a-zA-Z0-9.-]*\.com$
-  - DOMAIN-REGEX,^([a-zA-Z0-9-]*\.)*(msftconnecttest|msftncsi|microsoftonline)(\.[a-zA-Z0-9]*)$
-  - DOMAIN-REGEX,^([a-zA-Z0-9-]*\.)*(spotify|spotifycdn)(\.[a-zA-Z0-9]*)$
-  - DOMAIN-REGEX,^([a-zA-Z0-9-]*\.)*(xbox|xboxone|xbox360|xboxlive)(\.[a-zA-Z0-9-]*){1,}$
-  - DOMAIN-REGEX,^([a-zA-Z0-9-]*\.)*(doh|dns)(\.[a-zA-Z0-9-]*){1,}$
-  - DOMAIN-REGEX,^([a-zA-Z0-9-]*\.)*(stun)(\.[a-zA-Z0-9-]*){1,}$
-  - DOMAIN-REGEX,^([a-zA-Z0-9-]*\.)*(imap|mail)(\.[a-zA-Z0-9]*)\.com$
-  - DOMAIN-REGEX,^([a-zA-Z0-9-]*\.)*(gov)(\.[a-zA-Z0-9-]*)*$
+  - DOMAIN-REGEX,^appleimap(\.[a-zA-Z0-9-]+)+\.com$
+  - DOMAIN-REGEX,^imap-mail(\.[a-zA-Z0-9-]+)+\.com$
+  - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*time\d?(\.[a-zA-Z0-9-]+)*\.(com|gov|cn|org)$
+  - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*ntp\d?(\.[a-zA-Z0-9-]+)*\.(com|gov|cn|org)$
+  - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*(msftconnecttest|msftncsi|microsoftonline)(\.[a-zA-Z0-9-]+)+$
+  - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*(spotify|spotifycdn)(\.[a-zA-Z0-9-]+)+$
+  - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*(xbox|xboxone|xbox360|xboxlive)(\.[a-zA-Z0-9-]+)+$
+  - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*(doh|dns)(\.[a-zA-Z0-9-]+)+$
+  - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*(stun)(\.[a-zA-Z0-9-]+)+$
+  - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*(imap|mail)(\.[a-zA-Z0-9-]+)\.com$
+  - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*(gov)(\.[a-zA-Z0-9-]+)+$
