@@ -99,4 +99,4 @@ payload:
   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*(doh|dns)(\.[a-zA-Z0-9-]+)+$
   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*(stun)(\.[a-zA-Z0-9-]+)+$
   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*(imap|mail)(\.[a-zA-Z0-9-]+)\.com$
-  - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*(gov)(\.[a-zA-Z0-9-]+)+$
+  - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*(gov)(\.[a-zA-Z0-9-]+)*$
