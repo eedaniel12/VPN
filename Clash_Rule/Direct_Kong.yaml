@@ -5,6 +5,5 @@ payload:
   - DOMAIN-SUFFIX,fastly.jsdelivr.net
   - DOMAIN-SUFFIX,ntp.org
   - DOMAIN-KEYWORD,anydesk
-  - DOMAIN-KEYWORD,parsec
   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*time\d?(\.[a-zA-Z0-9-]+)*\.(com|gov|cn|org)$
   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*ntp\d?(\.[a-zA-Z0-9-]+)*\.(com|gov|cn|org)$
