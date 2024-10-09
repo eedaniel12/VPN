@@ -3,4 +3,3 @@
 payload:
   - DOMAIN,injections.adguard.org
   - DOMAIN,dl.wechat.com
-  - DOMAIN-SUFFIX,eedaniel.com
