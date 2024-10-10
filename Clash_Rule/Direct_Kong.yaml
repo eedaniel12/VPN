@@ -1,6 +1,7 @@
 # NAME: Direct_Kong
 # UPDATED: 2024-03-19
 payload:
+  - DOMAIN-SUFFIX,eedaniel.com
   - DOMAIN-SUFFIX,fastly.jsdelivr.net
   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*time\d?(\.[a-zA-Z0-9-]+)*\.(com|gov|cn|org)$
   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*ntp\d?(\.[a-zA-Z0-9-]+)*\.(com|gov|cn|org)$
