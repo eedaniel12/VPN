@@ -23,6 +23,7 @@ payload:
   - DOMAIN,time-ios.apple.com
   - DOMAIN,cloudflare-dns.com
   - DOMAIN,mobile-api.adguard.org
+  - DOMAIN,raw.githubusercontent.com
   - DOMAIN-SUFFIX,lan
   - DOMAIN-SUFFIX,localdomain
   - DOMAIN-SUFFIX,example
