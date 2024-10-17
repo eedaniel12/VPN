@@ -1,71 +1,71 @@
 payload:
-  - DOMAIN-SUFFIX,turnerlive.warnermediacdn.com
-  - DOMAIN-SUFFIX,ottproxy2.ist.ooo
-  - DOMAIN-SUFFIX,livestream-bt.nmtv.cn
-  - DOMAIN-SUFFIX,php.jdshipin.com
-  - DOMAIN-SUFFIX,livestar.siliconweb.com
-  - DOMAIN-SUFFIX,d2e1asnsl7br7b.cloudfront.net
-  - DOMAIN-SUFFIX,zby.xjqxz.top
-  - DOMAIN-SUFFIX,0472.org
-  - DOMAIN-SUFFIX,cfss.cc
-  - DOMAIN-SUFFIX,www.cbsnews.com
-  - DOMAIN-SUFFIX,rt-rtd.rttv.com
-  - DOMAIN-SUFFIX,zhibo.hkstv.tv
-  - DOMAIN-SUFFIX,live-gbnews.simplestreamcdn.com
   - DOMAIN-SUFFIX,f13h.mine.nu
-  - DOMAIN-SUFFIX,streamsy.online
-  - DOMAIN-SUFFIX,ali.hlspull.yximgs.com
-  - DOMAIN-SUFFIX,ali-m-l.cztv.com
   - DOMAIN-SUFFIX,bcovlive-a.akamaihd.net
-  - DOMAIN-SUFFIX,live.iill.top
-  - DOMAIN-SUFFIX,stream1.freetv.fun
-  - DOMAIN-SUFFIX,zb.xzxwhcb.com
-  - DOMAIN-SUFFIX,mobilelive-ds.ysp.cctv.cn
+  - DOMAIN-SUFFIX,livestream-bt.nmtv.cn
+  - DOMAIN-SUFFIX,turnerlive.warnermediacdn.com
+  - DOMAIN-SUFFIX,cfss.cc
   - DOMAIN-SUFFIX,fox-foxnewsnow-samsungus.amagi.tv
-  - DOMAIN-SUFFIX,www.syl88.online
+  - DOMAIN-SUFFIX,live.iill.top
+  - DOMAIN-SUFFIX,0472.org
+  - DOMAIN-SUFFIX,stream.qhbtv.com
   - DOMAIN-SUFFIX,live-hls-web-aje.getaj.net
-  - DOMAIN-SUFFIX,mediaworks.dema.mil.kr
-  - DOMAIN-SUFFIX,cdn.iptv8k.top
+  - DOMAIN-SUFFIX,zby.xjqxz.top
+  - DOMAIN-SUFFIX,php.jdshipin.com
+  - DOMAIN-SUFFIX,d2e1asnsl7br7b.cloudfront.net
+  - DOMAIN-SUFFIX,livestar.siliconweb.com
+  - DOMAIN-SUFFIX,ali-m-l.cztv.com
+  - DOMAIN-SUFFIX,node1.olelive.com
+  - DOMAIN-SUFFIX,live-gbnews.simplestreamcdn.com
+  - DOMAIN-SUFFIX,ali.hlspull.yximgs.com
+  - DOMAIN-SUFFIX,www.syl88.online
+  - DOMAIN-SUFFIX,ottproxy2.ist.ooo
+  - DOMAIN-SUFFIX,zzy789.xyz
+  - DOMAIN-SUFFIX,www.cbsnews.com
   - DOMAIN-SUFFIX,news1.live14.com
+  - DOMAIN-SUFFIX,stream1.freetv.fun
   - DOMAIN-SUFFIX,rt-glb.rttv.com
   - DOMAIN-SUFFIX,ldncctvwbndali.v.myalicdn.com
   - DOMAIN-SUFFIX,origin.lean.org.cn
+  - DOMAIN-SUFFIX,zhibo.hkstv.tv
+  - DOMAIN-SUFFIX,mediaworks.dema.mil.kr
   - DOMAIN-SUFFIX,ottrrs.hl.chinamobile.com
-  - DOMAIN-SUFFIX,node1.olelive.com
+  - DOMAIN-SUFFIX,mobilelive-ds.ysp.cctv.cn
+  - DOMAIN-SUFFIX,cdn.iptv8k.top
+  - DOMAIN-SUFFIX,zb.xzxwhcb.com
+  - DOMAIN-SUFFIX,streamsy.online
   - DOMAIN-SUFFIX,litv.zapi.us.kg
-  - DOMAIN-SUFFIX,zzy789.xyz
-  - DOMAIN-SUFFIX,stream.qhbtv.com
-  - IP-CIDR,116.128.242.83/32,no-resolve
-  - IP-CIDR,113.57.93.165/32,no-resolve
-  - IP-CIDR,111.61.236.247/32,no-resolve
-  - IP-CIDR,49.0.64.96/32,no-resolve
-  - IP-CIDR,123.166.61.70/32,no-resolve
-  - IP-CIDR,58.144.154.93/32,no-resolve
-  - IP-CIDR,36.32.174.67/32,no-resolve
-  - IP-CIDR,119.77.96.184/32,no-resolve
-  - IP-CIDR,202.100.46.58/32,no-resolve
-  - IP-CIDR,123.182.60.29/32,no-resolve
-  - IP-CIDR,111.9.163.109/32,no-resolve
-  - IP-CIDR,116.4.96.235/32,no-resolve
-  - IP-CIDR,112.6.165.112/32,no-resolve
-  - IP-CIDR,122.139.47.206/32,no-resolve
+  - DOMAIN-SUFFIX,rt-rtd.rttv.com
   - IP-CIDR,173.208.176.178/32,no-resolve
+  - IP-CIDR,36.32.174.67/32,no-resolve
+  - IP-CIDR,202.100.46.58/32,no-resolve
+  - IP-CIDR,122.139.47.206/32,no-resolve
+  - IP-CIDR,113.57.93.165/32,no-resolve
   - IP-CIDR,113.9.155.47/32,no-resolve
-  - IP-CIDR,222.241.154.37/32,no-resolve
-  - IP-CIDR,113.9.161.191/32,no-resolve
-  - IP-CIDR,61.221.215.25/32,no-resolve
+  - IP-CIDR,120.238.99.51/32,no-resolve
+  - IP-CIDR,123.138.216.44/32,no-resolve
+  - IP-CIDR,123.166.61.70/32,no-resolve
   - IP-CIDR,120.76.248.139/32,no-resolve
   - IP-CIDR,159.75.85.63/32,no-resolve
-  - IP-CIDR,120.238.99.51/32,no-resolve
-  - IP-CIDR,223.151.51.74/32,no-resolve
+  - IP-CIDR,119.77.96.184/32,no-resolve
+  - IP-CIDR,222.241.154.37/32,no-resolve
+  - IP-CIDR,112.6.165.112/32,no-resolve
+  - IP-CIDR,123.182.60.29/32,no-resolve
+  - IP-CIDR,58.144.154.93/32,no-resolve
+  - IP-CIDR,111.61.236.247/32,no-resolve
+  - IP-CIDR,61.221.215.25/32,no-resolve
+  - IP-CIDR,111.9.163.109/32,no-resolve
+  - IP-CIDR,113.9.161.191/32,no-resolve
   - IP-CIDR,220.168.77.132/32,no-resolve
-  - IP-CIDR,123.138.216.44/32,no-resolve
-  - IP-CIDR6,2409:8087:1a01:df::4077/128,no-resolve
-  - IP-CIDR6,2409:8087:1a01:df::404d/128,no-resolve
-  - IP-CIDR6,2409:8087:74d9:21::6/128,no-resolve
-  - IP-CIDR6,2409:8087:5e00:24::1e/128,no-resolve
-  - IP-CIDR6,2409:8087:1a01:df::7005/128,no-resolve
-  - IP-CIDR6,2409:8087:1a01:df::4033/128,no-resolve
+  - IP-CIDR,116.4.96.235/32,no-resolve
+  - IP-CIDR,223.151.51.74/32,no-resolve
+  - IP-CIDR,116.128.242.83/32,no-resolve
+  - IP-CIDR,49.0.64.96/32,no-resolve
+  - IP-CIDR6,2409:8087:1a01:df::402a/128,no-resolve
   - IP-CIDR6,2409:8087:1a01:df::403b/128,no-resolve
   - IP-CIDR6,2409:8087:1a01:df::4046/128,no-resolve
-  - IP-CIDR6,2409:8087:1a01:df::402a/128,no-resolve
+  - IP-CIDR6,2409:8087:1a01:df::4033/128,no-resolve
+  - IP-CIDR6,2409:8087:1a01:df::7005/128,no-resolve
+  - IP-CIDR6,2409:8087:74d9:21::6/128,no-resolve
+  - IP-CIDR6,2409:8087:1a01:df::4077/128,no-resolve
+  - IP-CIDR6,2409:8087:5e00:24::1e/128,no-resolve
+  - IP-CIDR6,2409:8087:1a01:df::404d/128,no-resolve
